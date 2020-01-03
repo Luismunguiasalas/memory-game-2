@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en" dir="ltr">
+	
+  <head>
+		
+    <meta charset="utf-8">
+		
+    <title>Memory Game</title>
+		
+    <link rel="stylesheet" href="memory_game.css" type="text/css">
+		
+    <script src="memory_game.js"></script>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+  </head>
+	<body>
+
+    <div class="container">
+      <header>
+        <h1>Memory Game</h1>
+			</header>
+			
+			<!-- Score Panel -->
+			<div class="score-panel">
+				<!-- Score Panel Content -->
+				<div class="restart">
+						<i class="fa fa-repeat"></i>
+				</div>
+				
+				<ul class="stars">
+					<i class="fa fa-star" id="icon1"></i>
+					<i class="fa fa-star" id="icon2"></i>
+					<i class="fa fa-star"></i>
+				</ul>
+				
+				<h2>Moves:</h2>
+				<p class="moves">0</p>
+				<h2>Time:</h2>
+				<p class="time">0 sec.</p>
+			</div>
+			
+			<!-- Cards will be added to parent ul -->	
+      <ul class="deck">
+			</ul>
+			
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+  		<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h3>Congratulations 🎉</h3>
+					<div class="content-2">
+						<p>You made <span id="finalMove">0</span> moves </p>
+            <p>In <span id="totalTime">0</span></p>
+            <p>Rating: <span style="color:gold; font-size: 29px;"id="starRating"> </span></p>
+						<p>To play again Click &nbsp<span class="restart" id="play-again"><i class="fa fa-repeat"></i>
+          </div>
+				</div>
+			</div>			
+    </div>
+	</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
